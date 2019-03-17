@@ -1,0 +1,37 @@
+@media only screen and (min-width: 600px) {
+  .container-basic {
+    -webkit-flex: 1;
+    /* Safari 6.1+ */
+    -ms-flex: 1;
+    /* IE 10 */
+    flex: 1;
+    display: -webkit-flex;
+    /* Safari */
+    -webkit-flex-direction: column;
+    /* Safari 6.1+ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    margin: 0px;
+  }
+  .bg-img {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 65%, rgba(255, 255, 255, 1)), url(./../assets/me-background.jpg);
+    height: 100vh;
+    width: 100vw;
+    top: 50px;
+    min-width: 800px;
+    max-width: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  .content {
+    flex: 1;
+    margin-left: -50px;
+    margin-top: 50px;
+  }
+}
+
+/* url(https://lh3.google.com/u/0/d/1Cobxg7XTLGF9d-bJ06GDQQnPlz8-eOXY=w2880-h1578-iv1); */

@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+@media only screen and (min-width: 600px) {
+  html {
+    scroll-behavior: smooth;
+    font-size: 15px;
+  }
+
+  body {
+    background-color: #fffbf4;
+    font-family: Palatino, "URW Palladio L", serif;
+    overflow-x: hidden
+  }
+}

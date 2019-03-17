@@ -1,0 +1,41 @@
+<div class="cards">
+  <a href="https://youtu.be/xsHjoiNxPB0">
+    <div class="card">
+      <img src="../../assets/me-background.jpg" alt="Notebook">
+      <h4>Ask'em</h4>
+      <div class="info-left">
+        <p class="text">Lorem ipsum dolor sit amet, an his etiam torquatos.</p>
+      </div>
+    </div>
+  </a>
+  <div class="card" (click)="openModal('http://homerg.herokuapp.com/')">
+    <img src="../../assets/me-background.jpg" alt="Notebook">
+    <div class="info-right">
+      <p class="text">Lorem ipsum dolor sit amet, an his etiam torquatos.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../../assets/me-background.jpg" alt="Notebook">
+    <div class="info-right">
+      <p class="text">Lorem ipsum dolor sit amet, an his etiam torquatos.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../../assets/me-background.jpg" alt="Notebook">
+    <div class="info-right">
+      <p class="text">Lorem ipsum dolor sit amet, an his etiam torquatos.</p>
+    </div>
+  </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close" (click)="closeModal()">&times;</span>
+      <span class="instruction"> Minimum width 1000px </span>
+      <div id="dialog" (ngModelChange)="changed()" title="Google"><span class="wait"> Wait... </span></div>
+    </div>
+  </div>
+
+
+</div>

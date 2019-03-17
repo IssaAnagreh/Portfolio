@@ -1,0 +1,57 @@
+.box {
+  /* border: 15px solid #fffbf4; */
+  background-color: #191000;
+  height: 500px;
+  width: 80vw;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.box-sub {
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  height: 175px;
+  width: 40vw;
+  margin: 0px;
+  margin-top: 30px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 25px;
+}
+
+.box-sub p {
+  font-size: 15px;
+  margin: 20px;
+}
+
+.subbox1 {
+  top: 0;
+  right: 0;
+}
+
+.subbox2 {
+  left: 0;
+}
+
+.subbox3 {
+  top: -74px;
+  right: 0;
+}
+
+.subbox4 {
+  top: -25px;
+  left: 0;
+}
+
+.subbox4 p{
+  margin-top: 10px;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+
