@@ -1,28 +1,22 @@
 <div class="cards">
-  <a href="https://youtu.be/xsHjoiNxPB0">
-    <div class="card">
-      <img src="../../assets/me-background.jpg" alt="Notebook">
-      <h4>Ask'em</h4>
-      <div class="info-left">
-        <p class="text">Lorem ipsum dolor sit amet, an his etiam torquatos.</p>
-      </div>
+  <div class="card" (click)="openModal('https://www.youtube.com/embed/xsHjoiNxPB0')">
+    <img src="../../assets/ask.png" alt="Notebook">
+    <h4>Ask'em</h4>
+    <div class="info-left">
+      <p class="text">Lorem ipsum dolor sit amet, an his etiam torquatos.</p>
     </div>
-  </a>
+  </div>
+  <div class="card" (click)="openModal('http://zahgaan.herokuapp.com/')">
+    <img src="../../assets/zahgan.472e04ee.png" alt="Notebook">
+    <h4>Zahgaan</h4>
+    <div class="info-left">
+      <p class="text">Lorem ipsum dolor sit amet, an his etiam torquatos.</p>
+    </div>
+  </div>
   <div class="card" (click)="openModal('http://homerg.herokuapp.com/')">
-    <img src="../../assets/me-background.jpg" alt="Notebook">
-    <div class="info-right">
-      <p class="text">Lorem ipsum dolor sit amet, an his etiam torquatos.</p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="../../assets/me-background.jpg" alt="Notebook">
-    <div class="info-right">
-      <p class="text">Lorem ipsum dolor sit amet, an his etiam torquatos.</p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="../../assets/me-background.jpg" alt="Notebook">
-    <div class="info-right">
+    <img src="../../assets/spanner_screw_driver_repair_mechanic_labor_tools-512 (1).png" alt="Notebook" style="width: 150px; height: 150px; top: 25px; position: relative; left: 30px">
+    <h4>HomerJi</h4>
+    <div class="info-left">
       <p class="text">Lorem ipsum dolor sit amet, an his etiam torquatos.</p>
     </div>
   </div>
@@ -36,6 +30,5 @@
       <div id="dialog" (ngModelChange)="changed()" title="Google"><span class="wait"> Wait... </span></div>
     </div>
   </div>
-
 
 </div>

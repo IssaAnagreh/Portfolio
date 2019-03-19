@@ -16,16 +16,17 @@
     margin: 0px;
   }
   .bg-img {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 65%, rgba(255, 255, 255, 1)), url(./../assets/me-background.jpg);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 35%, rgba(255, 255, 255, 0.05)), url(./../assets/me-background.jpg);
     height: 100vh;
     width: 100vw;
-    top: 50px;
+    /* top: 50px; */
     min-width: 800px;
     max-width: 1200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    position: fixed;
   }
   .content {
     flex: 1;

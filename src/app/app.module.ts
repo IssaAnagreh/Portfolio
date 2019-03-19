@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http'; // not used
 import $ from 'jquery';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -27,6 +28,7 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule, // not used
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyAh4tCruaPkM286t368L1IVjHR6vjn0x3s'
     })
@@ -36,24 +38,7 @@ import { ContactComponent } from './contact/contact.component';
 })
 
 export class AppModule {
-  constructor() {
-    // $(function () {
-    //   var header = $(".firstnavbar");
-    //   $(window).scroll(function () {
-    //     var scroll = $(window).scrollTop();
-    //     if (scroll >= 550) {
-    //       header.removeClass('secondnavbar').addClass("thirdnavbar");
-    //     } else if (scroll >= 250 && scroll < 550) {
-    //       header.removeClass('firstnavbar').addClass("secondnavbar");
-    //     } else {
-    //       header.removeClass('thirdnavbar').addClass("firstnavbar");
-    //     }
-    //   });
-    // });
-  }
+  constructor() {}
 
-
-  ngOnInit(): void {
-
-  }
+  ngOnInit(): void {}
 }

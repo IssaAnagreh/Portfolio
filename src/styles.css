@@ -7,7 +7,8 @@
   }
 
   body {
-    background-color: #fffbf4;
+    /* background-color: #fffbf4; */
+    background-color: rgb(25,16,0,1);
     font-family: Palatino, "URW Palladio L", serif;
     overflow-x: hidden
   }
